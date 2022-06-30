@@ -1,0 +1,33 @@
+Start -> Run -> type cmd -> click OK
+
+
+
+
+cd C:\Program Files\SQLite ODBC Driver
+
+
+
+CREATE TABLE movies
+(
+     movie_name   VARCHAR(200),
+     movie_year   INTEGER,
+     country      VARCHAR(100), 
+     genre        VARCHAR NOT NULL, 
+     PRIMARY KEY  (movie_name, movie_year)
+);
+
+
+
+insert into employee
+  (first, last, age, address, city, state)
+  values ('Luke', 'Duke', 45, '2130 Boars Nest', 
+          'Hazard Co', 'Georgia');
+          
+          
+
+
+ARTIST (Art_id, Art_Name, Art_Gender) 
+PRODUCER (Prod_id, Prod_Name, Prod_Phone)
+FILMS (Film_id, Film_Title, Film_Year, Film_Lang, Prod_id) 
+CASTING (Art_id, Film_id, Part) 
+REVIEW (Film_id, Stars) 
